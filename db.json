@@ -1,0 +1,93 @@
+{
+  "locations": [
+    {
+      "id": 0,
+      "name": "Pala",
+      "photo": "/assets/pala.png",
+      "detail": "berat bersih 40gr",
+      "price": 5000,
+      "stock": 99,
+      "info": "Pala merupakan tumbuhan berupa pohon yang berasal dari kepulauan Banda, Maluku."
+    },
+
+    {
+      "id": 1,
+      "name": "Asam Potong",
+      "photo": "/assets/asam_potong.png",
+      "detail": "berat bersih 40gr",
+      "price": 5000,
+      "stock": 36,
+      "info": "Asam gelugur adalah pohon penghasil asam potong atau asam keping. Asam potong diperoleh dari irisan buah asam gelugur yang dikeringkan dengan cara dijemur di bawah terik matahari."
+    },
+
+    {
+      "id": 2,
+      "name": "Lada Hitam",
+      "photo": "/assets/lada_hitam.png",
+      "detail": "berat bersih 40gr",
+      "price": 5000,
+      "stock": 399,
+      "info": "Lada, disebut juga merica atau sahang, yang mempunyai nama Latin Piper nigrum adalah sebuah tanaman yang kaya akan kandungan kimia, seperti minyak lada, minyak lemak, juga pati"
+    },
+
+    {
+      "id": 3,
+      "name": "Kayu Manis",
+      "photo": "/assets/kayu_manis.png",
+      "detail": "berat bersih 35gr",
+      "price": 5000,
+      "stock": 12,
+      "info": "Kayu manis atau dengan nama ilmiah Cinnamomum ialah jenis pohon penghasil rempah-rempah"
+    },
+
+    {
+      "id": 4,
+      "name": "Cabai Kering",
+      "photo": "/assets/cabai-kering.png",
+      "detail": "berat bersih 40gr",
+      "price": 5000,
+      "stock": 36,
+      "info": "Cabai kering adalah cabai yang telah dikeringkan setelah proses pemetikan."
+    },
+
+    {
+      "id": 5,
+      "name": "Ketumbar",
+      "photo": "/assets/ketumbar.png",
+      "detail": "berat bersih 40gr",
+      "price": 5000,
+      "stock": 85,
+      "info": "Ketumbar adalah tumbuhan rempah-rempah yang populer. Buahnya yang kecil dikeringkan dan diperdagangkan, baik digerus maupun tidak."
+    },
+
+    {
+      "id": 6,
+      "name": "Bawang Putih",
+      "photo": "/assets/bawang_putih.png",
+      "detail": "berat bersih 40gr",
+      "price": 5000,
+      "stock": 76,
+      "info": "Bawang putih adalah nama tanaman dari genus Allium sekaligus nama dari umbi yang dihasilkan"
+    },
+
+    {
+      "id": 7,
+      "name": "Kemiri",
+      "photo": "/assets/kemiri.png",
+      "detail": "berat bersih 40gr",
+      "price": 5000,
+      "stock": 45,
+      "info": "Kemiri, adalah tumbuhan yang bijinya dimanfaatkan sebagai sumber minyak dan rempah-rempah. "
+    },
+
+    {
+      "id": 8,
+      "name": "Cengkeh",
+      "photo": "/assets/cengkeh.png",
+      "detail": "berat bersih 40gr",
+      "price": 5000,
+      "stock": 36,
+      "info": "Cengkih atau cengkeh adalah kuncup bunga kering beraroma dari keluarga pohon Myrtaceae"
+    }
+  ]
+}

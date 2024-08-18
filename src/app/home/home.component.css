@@ -1,0 +1,42 @@
+.formtop {
+  margin-top: 80px;
+}
+
+/* BATASSSSSSS */
+
+/*========== HOME ==========*/
+.home__container {
+  height: calc(80vh - var(--header-height));
+  align-content: center;
+}
+
+.home__title {
+  font-size: var(--biggest-font-size);
+  color: var(--first-color);
+  margin-bottom: var(--mb-1);
+}
+
+.home__subtitle {
+  font-size: var(--h1-font-size);
+  color: var(--title-color);
+  margin-bottom: var(--mb-4);
+}
+
+.home__img {
+  width: 500px;
+  justify-self: center;
+  border-radius: 30px;
+}
+
+.button {
+  padding: 10px;
+  border: solid 1px rgb(3, 88, 88);
+  background: rgb(3, 88, 88);
+  color: #fff;
+  border-radius: 8px;
+}
+.button:hover {
+  background-color: #fff;
+  border: solid 1px rgb(3, 88, 88);
+  color: var(--first-color);
+}

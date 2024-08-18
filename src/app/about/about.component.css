@@ -1,0 +1,27 @@
+/*========== ABOUT ==========*/
+.about__data {
+  text-align: center;
+}
+
+.about__description {
+  margin-bottom: var(--mb-3);
+}
+
+.about__img {
+  width: 380px;
+  border-radius: 30px;
+  justify-self: center;
+}
+
+.button {
+  padding: 10px;
+  border: solid 1px rgb(3, 88, 88);
+  background: rgb(3, 88, 88);
+  color: #fff;
+  border-radius: 8px;
+}
+.button:hover {
+  background-color: #fff;
+  border: solid 1px rgb(3, 88, 88);
+  color: var(--first-color);
+}

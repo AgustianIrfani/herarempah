@@ -1,0 +1,109 @@
+.pesan {
+  border: 2px solid rgb(3, 88, 88);
+  background-color: var(--container-color);
+  border-radius: 35px;
+  padding: 1rem;
+}
+
+a {
+  align-items: center;
+  padding: 12px;
+  border: solid 1px rgb(3, 88, 88);
+  background: rgb(3, 88, 70);
+  color: #fff;
+  border-radius: 15px;
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+a:hover {
+  background-color: #fff;
+  color: var(--first-color);
+}
+
+.listing-photo {
+  height: 450px;
+  width: 35%;
+  /* object-fit: cover; */
+  border-radius: 30px;
+  float: right;
+}
+
+.listing-heading {
+  font-size: 48pt;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.listing-location::before {
+  content: url("/assets/location-pin.svg") / "";
+}
+
+.listing-location {
+  font-size: 24pt;
+  margin-bottom: 15px;
+}
+
+.listing-features > .section-heading {
+  color: var(--secondary-color);
+  font-size: 24pt;
+  margin-bottom: 15px;
+}
+
+.listing-features {
+  margin-bottom: 20px;
+}
+
+.listing-features li {
+  font-size: 14pt;
+}
+
+li {
+  list-style-type: none;
+}
+
+.listing-apply .section-heading {
+  font-size: 18pt;
+  margin-bottom: 15px;
+}
+
+label,
+input {
+  display: block;
+}
+label {
+  color: var(--secondary-color);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 9pt;
+}
+input {
+  font-size: 16pt;
+  margin-bottom: 15px;
+  padding: 5px;
+  width: 400px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: solid 0.3px;
+}
+@media (max-width: 1024px) {
+  .listing-photo {
+    width: 30%;
+    height: 30%;
+  }
+}
+
+.button {
+  align-items: center;
+  padding: 15px;
+  border: solid 1px rgb(3, 88, 88);
+  background: rgb(3, 88, 88);
+  color: #fff;
+  border-radius: 15px;
+}
+.button:hover {
+  background-color: #fff;
+  border: solid 1px rgb(3, 88, 88);
+  color: var(--first-color);
+}

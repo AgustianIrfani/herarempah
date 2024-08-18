@@ -1,0 +1,73 @@
+.menu__content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--container-color);
+  border-radius: 35px;
+  box-shadow: 0 2px 4px rgba(131, 241, 188, 0.15);
+  padding: 0.75rem;
+  border: 2px solid rgb(3, 88, 88);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 350px;
+  margin-top: 30px;
+}
+
+.menu__button__left {
+  margin-top: 10px; /* Menambahkan jarak di atas tombol jika diperlukan */
+}
+
+.menu__img {
+  width: 100px;
+  align-self: center;
+  margin-bottom: var(--mb-2);
+}
+
+.menu__name,
+.menu__preci {
+  font-weight: var(--font-semi-bold);
+  color: var(--title-color);
+}
+
+.menu__name {
+  font-size: var(--normal-font-size);
+}
+
+.menu__detail,
+.menu__preci {
+  font-size: var(--small-font-size);
+  /* margin-bottom: var(--mb-3); */
+}
+
+.menu__detail {
+  margin-bottom: var(--mb-1);
+}
+
+.menu__button__left {
+  align-items: center;
+  position: relative;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  padding: 0.5rem 0.813rem;
+  border-radius: 20px;
+  background-color: rgb(3, 88, 88);
+  border-color: #1d3bbd;
+  /* UNTUK MELAKUKAN PEMESANAN  */
+}
+
+.button {
+  align-items: center;
+  padding: 10px;
+  border: solid 1px rgb(3, 88, 88);
+  background: rgb(3, 88, 88);
+  color: #fff;
+  border-radius: 15px;
+}
+.button:hover {
+  background-color: #fff;
+  border: solid 1px rgb(3, 88, 88);
+  color: var(--first-color);
+}

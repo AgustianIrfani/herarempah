@@ -1,0 +1,41 @@
+.l-header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: var(--z-fixed);
+  background-color: rgb(3, 88, 88);
+}
+
+.nav__logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #11e964;
+}
+.nav__logo:hover {
+  color: #fff;
+}
+
+.nav__item {
+  /* margin-bottom: var(--mb-2); */
+  align-items: center;
+}
+
+.nav__link,
+.nav__toggle {
+  color: #11e964;
+  font-weight: var(--font-medium);
+}
+
+.nav__link {
+  transition: 0.3s;
+}
+
+.nav__link:hover {
+  color: white;
+}
+
+.nav__toggle {
+  font-size: 1.3rem;
+  cursor: pointer;
+}
